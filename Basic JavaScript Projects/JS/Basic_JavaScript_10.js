@@ -5,6 +5,7 @@ function Call_Loop() {
     }
 }
 
+// This is my for loop function
 function for_Loop() {
     var num = 0
     for (var i = 0; i < 15; i++) {
