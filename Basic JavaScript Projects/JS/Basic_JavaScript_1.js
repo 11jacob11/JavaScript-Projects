@@ -1,2 +1,12 @@
-// Expression:
-console.log(3+3);
+var potato = "potato";
+var escape = "I \"Like\" ";
+var one = "1", two = "2", three = "3";
+var potato = potato.fontcolor("brown");
+var escape = escape.fontcolor("red");
+var one = one.fontcolor("blue");
+var two = two.fontcolor("blue");
+var three = three.fontcolor("blue");
+window.alert(potato);
+document.write(potato + "<br>");
+document.write(escape + potato + "'s<br>");
+document.write(two);
