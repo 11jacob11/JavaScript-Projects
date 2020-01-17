@@ -1,12 +1,13 @@
 #menuBG {
-    width: 400px;
+    width: 600px;
     height: 740px;
     margin: 10px auto;
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
+    column-count: 3;
 }
 
 #totalPrice {
@@ -20,6 +21,12 @@
     width: 200px;
     height: 200px;
     float: left;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    align-self: center;
 }
 
 .right {
