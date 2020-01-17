@@ -1,6 +1,7 @@
 function Call_Loop() {
     var num = 0;
     while (num < 51) {
+        console.log(num);
         num++;
     }
 }
@@ -26,7 +27,7 @@ const Jacob1 = {
 }
 
 function constant_function() {
-    document.getElementById("constant").innerHTML = Jacob.name;
+    document.getElementById("constant").innerHTML = Jacob1.name;
 }
 
 let ham = "tasty";
