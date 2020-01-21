@@ -37,6 +37,22 @@ let Jacob2 = {
     gender: "M",
     hairColor: "Brown",
     speak: function() {
-        return "Hello there, my name is Jacob.";
+        document.getElementById("jacob").innerHTML = "Hello there, my name is Jacob.";
+    }
+}
+
+function break_test() {
+    for (var i = 0; true; i++) {
+        break;
+    }
+}
+
+function continue_test() {
+    for (var i = 0; i < 21; i += 2) {
+        if (i == 8) {
+            continue;
+        } else {
+            console.log("I love the number " + i + "!");
+        }
     }
 }
