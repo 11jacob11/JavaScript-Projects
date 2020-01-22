@@ -41,6 +41,14 @@ let Jacob2 = {
     }
 }
 
+function changeName() {
+    Jacob2.name = "Jacob Seibel";
+}
+
+function addToJacob() {
+    Jacob2.height = "6'2\"";
+}
+
 function break_test() {
     for (var i = 0; true; i++) {
         break;
